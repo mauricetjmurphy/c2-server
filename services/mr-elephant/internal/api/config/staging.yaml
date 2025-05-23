@@ -1,0 +1,5 @@
+db_user: staginguser
+db_password: stagingpassword
+db_host: staging-host
+db_port: 3306
+db_name: stagingdb

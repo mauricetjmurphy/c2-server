@@ -1,0 +1,86 @@
+[
+    {
+        "id": "listener1",
+        "name": "Listener 1",
+        "status": "active",
+        "ipAddress": "10.0.0.1",
+        "devices": [
+            {
+                "id": "device1",
+                "name": "Device 1",
+                "type": "Type A",
+                "status": "active",
+                "manufacturer": "Manufacturer A",
+                "model": "Model A1",
+                "serialNumber": "SN001",
+                "ipAddress": "192.168.1.1"
+            },
+            {
+                "id": "device2",
+                "name": "Device 2",
+                "type": "Type B",
+                "status": "inactive",
+                "manufacturer": "Manufacturer B",
+                "model": "Model B1",
+                "serialNumber": "SN002",
+                "ipAddress": "192.168.1.2"
+            }
+        ]
+    },
+    {
+        "id": "listener2",
+        "name": "Listener 2",
+        "status": "inactive",
+        "ipAddress": "10.0.0.2",
+        "devices": [
+            {
+                "id": "device3",
+                "name": "Device 3",
+                "type": "Type C",
+                "status": "active",
+                "manufacturer": "Manufacturer C",
+                "model": "Model C1",
+                "serialNumber": "SN003",
+                "ipAddress": "192.168.1.3"
+            }
+        ]
+    },
+    {
+        "id": "listener3",
+        "name": "Listener 3",
+        "status": "active",
+        "ipAddress": "10.0.0.3",
+        "devices": [
+            {
+                "id": "device4",
+                "name": "Device 4",
+                "type": "Type A",
+                "status": "inactive",
+                "manufacturer": "Manufacturer A",
+                "model": "Model A2",
+                "serialNumber": "SN004",
+                "ipAddress": "192.168.1.4"
+            },
+            {
+                "id": "device5",
+                "name": "Device 5",
+                "type": "Type B",
+                "status": "active",
+                "manufacturer": "Manufacturer B",
+                "model": "Model B2",
+                "serialNumber": "SN005",
+                "ipAddress": "192.168.1.5"
+            },
+            {
+                "id": "device6",
+                "name": "Device 6",
+                "type": "Type C",
+                "status": "active",
+                "manufacturer": "Manufacturer C",
+                "model": "Model C2",
+                "serialNumber": "SN006",
+                "ipAddress": "192.168.1.6"
+            }
+        ]
+    }
+]

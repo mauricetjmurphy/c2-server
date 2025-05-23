@@ -1,0 +1,42 @@
+[
+    {
+        "deviceName": "Device 1",
+        "deviceType": "Type A",
+        "deviceStatus": "Active",
+        "manufacturer": "Manufacturer A",
+        "model": "Model A1",
+        "serialNumber": "SN001"
+    },
+    {
+        "deviceName": "Device 2",
+        "deviceType": "Type B",
+        "deviceStatus": "Inactive",
+        "manufacturer": "Manufacturer B",
+        "model": "Model B1",
+        "serialNumber": "SN002"
+    },
+    {
+        "deviceName": "Device 3",
+        "deviceType": "Type C",
+        "deviceStatus": "Active",
+        "manufacturer": "Manufacturer C",
+        "model": "Model C1",
+        "serialNumber": "SN003"
+    },
+    {
+        "deviceName": "Device 4",
+        "deviceType": "Type A",
+        "deviceStatus": "Inactive",
+        "manufacturer": "Manufacturer A",
+        "model": "Model A2",
+        "serialNumber": "SN004"
+    },
+    {
+        "deviceName": "Device 5",
+        "deviceType": "Type B",
+        "deviceStatus": "Active",
+        "manufacturer": "Manufacturer B",
+        "model": "Model B2",
+        "serialNumber": "SN005"
+    }
+]

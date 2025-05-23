@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  client:
+    build: .
+    ports:
+      - "4000:4000"
+    depends_on:
+      - mysql
+    restart: always
+
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=clientdb
+      - MYSQL_USER=clientuser
+      - MYSQL_PASSWORD=password
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:

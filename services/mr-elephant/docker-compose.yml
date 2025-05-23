@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mr-elephant:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - SERVER_ADDR=docker
+    depends_on:
+      - mysql
+    restart: always
+
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=listenerdb
+      - MYSQL_USER=listeneruser
+      - MYSQL_PASSWORD=password
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:

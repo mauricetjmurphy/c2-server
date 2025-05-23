@@ -1,0 +1,7 @@
+{
+  "host": "http://127.0.0.1",
+  "port": "4000",
+  "uri": "/api/v1/tasks",
+  "timeout": 10,
+  "interval": 60
+}

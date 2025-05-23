@@ -1,0 +1,5 @@
+db_user: produser
+db_password: prodpassword
+db_host: prod-host
+db_port: 3306
+db_name: proddb
